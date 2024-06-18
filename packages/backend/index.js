@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config(); // Load environment variables from the .env file
-const router = require('./routes/TodoRotue'); // Assuming the router is defined in 'TodoRotue.js'
+const router = require('./routes/index'); // Assuming the router is defined in 'TodoRotue.js'
 const app = express();
 const uri = "mongodb+srv://mcknx:uUr%40%5E5ZeAKyw7%24UI@cluster0.cowhwoa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // will turn it off after examination checking
 
